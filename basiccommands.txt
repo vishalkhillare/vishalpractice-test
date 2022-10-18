@@ -1,0 +1,12 @@
+1) git init 
+2) git clone
+after this command move your file in rpository folder
+3) git status
+4) git add .
+5) git commit "first commit"
+6)git branch 
+7)git branch -m main
+8)git push -u origin main
+ vishalkhillare
+for pw- token
+
