@@ -1,0 +1,10 @@
+---
+- name: Run Commands using Shell Module
+  hosts: ws
+  tasks:
+  - name: Check Date to all Managed Servers
+    shells:
+        "date"
+    register: datecmd
+    tags: datecmd
+  - debug: msg="{{datecmd.stdout}}"
