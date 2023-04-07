@@ -1,0 +1,10 @@
+---
+- name: Hello World
+  hosts: all
+  gather_facts: false
+  
+  tasks:
+    - name: Print greeting
+      debug:
+        msg: "Hello, world!"
+
